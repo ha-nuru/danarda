@@ -5,6 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="assets/css/reset.css" />
+	<link rel="stylesheet" href="assets/css/slick.css" />
 	<link rel="stylesheet" href="assets/css/style1.css" />
 	<title>다나르다</title>
 </head>
@@ -545,6 +546,23 @@
 			$(".main_visual .slider_arrow .next_btn").on("click", function () {
 				$(".main_visual .slider_main_box").slick("slickNext");
 			});
+			// phone_slider_box
+			$(".phone_slider_box").slick({
+				// autoplay: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+			});
+		});
+		$('.phone_slider_box').on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+			$('.step_num_item').eq(currentSlide).addClass('on').siblings().removeClass('on')
+			$('.step_txt_item').eq(currentSlide).addClass('on').siblings().removeClass('on')
+		});
+		$('.step_txt_item , .step_num_item').click(function () {
+			var idx = $(this).index();
+			$('.step_num_item').eq(idx).addClass('on').siblings().removeClass('on')
+			$('.step_txt_item').eq(idx).addClass('on').siblings().removeClass('on');
+			$('.phone_slider_box').slick('slickGoTo', idx)
 		});
 		$(function () {
 			var w = $(window).width();

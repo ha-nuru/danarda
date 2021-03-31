@@ -651,6 +651,15 @@ button {
   margin: 0 auto;
 }
 .step_sec .phone_slider_box {
+  width: 100%;
+  padding: 5.2% 6.4% 0 6%;
+  background: url(../img/phone_frame.png) no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  outline: none;
+}
+.step_sec .phone_slider_item{
+	outline: none;
 }
 /* connect_content */
 .connect_content {
