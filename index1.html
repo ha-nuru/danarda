@@ -14,8 +14,8 @@
 		<header id="header">
 			<div class="inner_h">
 				<h1 class="h_logo">
-					<a href=""><img src="assets/img/main_logo.png" alt="헤더로고" class="pc" />
-						<img src="assets/img/main_logo_mob.png" alt="헤더로고 모바일" class="mob mob_inline" /></a>
+					<a href=""><img src="assets/img/main_logo.png" alt="헤더로고" class="pc_inline" />
+						<img src="assets/img/main_logo_mob.png" alt="헤더로고 모바일" class="mob_inline" /></a>
 				</h1>
 			</div>
 		</header>
@@ -31,7 +31,8 @@
 			<div class="modal">
 				<div class="news_popup">
 					<a href="" class="popup_close_btn">
-						<img src="assets/img/popup_close_btn.png" alt="닫기" />
+						<img src="assets/img/popup_close_btn.png" alt="닫기" / class="pc">
+						<img src="assets/img/popup_close_btn_mob.png" alt="닫기" class="mob" />
 					</a>
 					<div class="news_pop_txt">
 						<h5>
@@ -41,7 +42,7 @@
 					</div>
 					<div class="news_pop_cont">
 						<div class="pop_img">
-							<img src="assets/img/popup_img1.png" alt="물류 빅데이터" />
+							<img src="./assets/img/new_popup.jpg" alt="팝업이미지">
 						</div>
 						<span>
 							세상은 이제,다나르다로 연결됩니다.<br />
@@ -82,20 +83,20 @@
 			<section class="sec_content">
 				<div class="inner_15">
 					<div class="sec_img_cont sec_slider clearfix">
-						<div class="sec_img_w">
+						<div class="sec_img_w clearfix">
 							<h4>빨리 보내야 할 <br />물건이 있나요?</h4>
-							<div class="sec_img sec_img1 clearfix"></div>
+							<div class="sec_img sec_img1"></div>
 						</div>
 						<div class="sec_img_w">
 							<h4>
 								택배로는 보낼수 없어 <br />
 								고민스러운가요?
 							</h4>
-							<div class="sec_img sec_img2 clearfix"></div>
+							<div class="sec_img sec_img2"></div>
 						</div>
-						<div class="sec_img_w">
+						<div class="sec_img_w clearfix">
 							<h4>직접 갈 수는 없고 <br />부탁할 사람도 없나요?</h4>
-							<div class="sec_img sec_img3 clearfix"></div>
+							<div class="sec_img sec_img3"></div>
 						</div>
 					</div>
 				</div>
@@ -124,7 +125,7 @@
 					<div class="phone_img_wrap">
 						<div class="phone_img">
 							<img src="assets/img/phone.png" alt="핸드폰" class="pc" />
-							<img src="assets/img/mob_phone_img.png" alt="모바일 핸드폰 " class="mob">
+							<img src="assets/img/mob_phone_img.png" alt="모바일 핸드폰 " class="mob" />
 						</div>
 
 						<div class="phone_wrap_ani">
@@ -160,13 +161,13 @@
 					</div>
 				</div>
 			</section>
-			<section class="info_content">
+			<!-- <section class="info_content">
 				<div class="inner_940 over clearfix">
 					<div class="thr_left_w">
 						<ul class="line_number_wrap clearfix">
 							<li class="active">
 								<div class="line_number_ellipse">
-									<button class="act_line_btn">
+									<button>
 										<span>1</span>
 									</button>
 								</div>
@@ -225,7 +226,57 @@
 						<div class="thr_mob_img3 thr_mob"></div>
 					</div>
 				</div>
+			</section> -->
+			<!-- step_sec -->
+			<section class="step_sec">
+				<div class="inner">
+					<!-- step_wrap -->
+					<div class="step_wrap">
+						<div class="step_num_wrap">
+							<button type="button" class="step_num_item on">1</button>
+							<button type="button" class="step_num_item">2</button>
+							<button type="button" class="step_num_item">3</button>
+						</div>
+						<div class="step_txt_wrap">
+
+							<button type="button" class="step_txt_item on">
+								<strong>긴급매칭으로 가장 가까이에<br class="pc_br"> 있는 <br class="mob_br">나르맨을 연결</strong>
+								<span>내 근처에 있는 나르맨을<br class="pc_br"> 빠르게<br class="mob_br"> 연결해드립니다!</span>
+							</button>
+
+							<button type="button" class="step_txt_item">
+								<strong>친절하고 정확한 나르맨을<br>우선 연결!</strong>
+								<span>‘나르맨’ 평가제를 통해 친절하고<br>정확한 나르맨을 연결해드립니다!</span>
+							</button>
+
+							<button type="button" class="step_txt_item">
+								<strong>내 물건이 어디쯤 가고 있는지<br>실시간으로 알 수 있어요.</strong>
+								<span>나르맨의 위치 공유를 통해 내 물건<br class="pc_br">이<br class="mob_br"> 언제쯤 도착할지 알수 있어요</span>
+							</button>
+
+						</div>
+					</div>
+					<!-- //step_wrap -->
+					<!-- phone_wrap -->
+					<div class="phone_wrap">
+						<div class="phone_frame_box">
+							<div class="phone_slider_box">
+								<div class="phone_slider_item">
+									<img src="assets/img/step_phone01.png" alt="" class="">
+								</div>
+								<div class="phone_slider_item">
+									<img src="assets/img/step_phone02.png" alt="" class="">
+								</div>
+								<div class="phone_slider_item">
+									<img src="assets/img/step_phone03.png" alt="" class="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- //phone_wrap -->
+				</div>
 			</section>
+			<!-- //step_sec -->
 			<section class="connect_content">
 				<div class="con_text inner_940">
 					<h3>
@@ -307,54 +358,6 @@
 								<span>다나르다</span>
 							</div>
 						</div>
-
-						<!-- <div class="sub_ellipse_mov service_cir2 cir_14 cir_aft">
-							<div>
-								<span>물류서비스 사업</span>
-							</div>
-						</div> 
-						<div class="sub_ellipse_mov indiv_cir1 cir_aft">
-							<div>
-								<span>개인1</span>
-							</div>
-						</div>
-						<div class="sub_ellipse_mov indiv_cir2 cir_aft">
-							<div>
-								<span>개인2</span>
-							</div>
-						</div> 
-						<div class="sub_ellipse_mov big_d_cir cir_12 cir_aft">
-							<div>
-								<span>물류  Big Data</span>
-							</div>
-						</div> 
-						<div class="sub_ellipse_mov indiv_cir3 cir_aft">
-							<div>
-							<span>개인3</span>
-							</div>
-						</div> 
-
-
-						<div class="center_logo_e cir_aft">
-							<div>
-								<span class="center_text_img ir_su">다나르다 텍스트이미지</span>
-							</div>
-						</div>
-						<div class="sub_ellipse_mov service_cir1 cir_aft">
-							<div>
-								<span>상품판매서비스</span>
-							</div>
-						</div>
-						<div class="sub_ellipse_mov ai_cir cir_12 cir_aft">
-							<div>
-								<span>AI물류컨설팅</span>
-							</div>
-						</div>
-						<div class="sub_ellipse_mov trans_cir">
-							<div>
-								<span>운송사업</span>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</section>
@@ -364,9 +367,8 @@
 					<ul class="news_list clearfix">
 						<li>
 							<a href="">
-								<div class="news_img news_img1 ir_pm"
-									style="background-image: url(./assets/img/new_3.png)">
-									뉴스 물류 빅데이터
+								<div class="news_img">
+									<img src="./assets/img/new_1.jpg" alt="뉴스 미디어 이미지1">
 								</div>
 								<b>
 									다나르다는 온국민 물류통합 플랫폼 서비스 사업으로 물류
@@ -377,9 +379,8 @@
 						</li>
 						<li>
 							<a href="">
-								<div class="news_img news_img2 ir_pm"
-									style="background-image: url(./assets/img/new_2.png)">
-									뉴스 물류 빅데이터
+								<div class="news_img">
+									<img src="./assets/img/new_2.jpg" alt="뉴스 미디어 이미지2">
 								</div>
 								<b>
 									다나르다는 온국민 물류통합 플랫폼 서비스 사업으로 물류
@@ -390,7 +391,9 @@
 						</li>
 						<li>
 							<a href="">
-								<div class="news_img news_img3 ir_pm">뉴스 물류 빅데이터</div>
+								<div class="news_img">
+									<img src="./assets/img/new_3.jpg" alt="뉴스 미디어 이미지3">
+								</div>
 								<b>
 									다나르다는 온국민 물류통합 플랫폼 서비스 사업으로 물류
 									빅데이터
@@ -400,7 +403,9 @@
 						</li>
 						<li>
 							<a href="">
-								<div class="news_img news_img4 ir_pm">뉴스 물류 빅데이터</div>
+								<div class="news_img">
+									<img src="./assets/img/new_4.jpg" alt="뉴스 미디어 이미지4">
+								</div>
 								<b>
 									다나르다는 온국민 물류통합 플랫폼 서비스 사업으로 물류
 									빅데이터
@@ -410,7 +415,9 @@
 						</li>
 						<li>
 							<a href="">
-								<div class="news_img news_img5 ir_pm">뉴스 물류 빅데이터</div>
+								<div class="news_img">
+									<img src="./assets/img/new_5.jpg" alt="뉴스 미디어 이미지5">
+								</div>
 								<b>
 									다나르다는 온국민 물류통합 플랫폼 서비스 사업으로 물류
 									빅데이터
@@ -420,7 +427,9 @@
 						</li>
 						<li>
 							<a href="">
-								<div class="news_img news_img6 ir_pm">뉴스 물류 빅데이터</div>
+								<div class="news_img">
+									<img src="./assets/img/new_6.jpg" alt="뉴스 미디어 이미지6">
+								</div>
 								<b>
 									다나르다는 온국민 물류통합 플랫폼 서비스 사업으로 물류
 									빅데이터
@@ -481,10 +490,9 @@
 		<footer id="footer">
 			<div class="inner_11 clearfix">
 				<div class="foot_logo">
-					<img src="assets/img/foot_logo.png" alt="푸터로고" class="pc"/>
+					<img src="assets/img/foot_logo.png" alt="푸터로고" class="pc_inline" />
 					<img src="assets/img/mob_foot_logo.png" alt="모바일 푸터로고" class="mob_inline" />
 				</div>
-				<h1 class="foot_logo ir_pm">푸터로고</h1>
 				<div class="foot_text_wrap">
 					<p class="fot_top_txt">
 						대표 : 최승출<br class="mob_br" /><span>주소 : 경기도 용인시 수지구 광교중앙로 338
@@ -514,7 +522,7 @@
 		<button class="mov_top"></button>
 	</div>
 	<script src="assets/js/jquery-1.12.4.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="assets/js/jquery-ui.min.js"></script>
 	<script src="assets/js/slick.min.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script>
@@ -556,6 +564,7 @@
 					slidesToScroll: 1,
 					arrows: false,
 					dots: true,
+					draggable: true,
 					customPaging: function (slick, index) {
 						return '<button class="sec_pager_btn"></button>';
 					},
@@ -566,6 +575,10 @@
 		// 팝업
 		$(function () {
 			$(".news_content a").click(function (e) {
+				e.preventDefault();
+				$(this).parent().parent().parent().parent().siblings(".modal").show();
+			});
+			$(".notice_li a").click(function (e) {
 				e.preventDefault();
 				$(this).parent().parent().parent().parent().siblings(".modal").show();
 			});
